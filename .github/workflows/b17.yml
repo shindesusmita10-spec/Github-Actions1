@@ -10,3 +10,9 @@ jobs:
         steps:
             - name: print a message
               run: echo "Hello b17 this is my first workflow"
+
+            - name: do this calculation
+              run:  expr  100 + 200
+
+            - name: check os info of runner
+              run: cat /etc/os-release
