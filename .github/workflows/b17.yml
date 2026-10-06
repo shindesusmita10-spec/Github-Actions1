@@ -12,11 +12,11 @@ jobs:
               run:  git clone https://github.com/shindesusmita10-spec/Github-Actions1.git
 
             - name: checking the code
-              run: 
-                cd Github-Actions1
+              run: |
+                cd Github-Actions1 
                 ls -la
                 chmod +x new.sh
-                 ./new.sh
+                ./new.sh
     
 
             
