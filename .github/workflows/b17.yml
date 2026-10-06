@@ -15,9 +15,6 @@ jobs:
               run: 
                 cd Github-Actions1
                 ls -la
-
-            - name: running the script
-              run: 
                 chmod +x new.sh
                 ./new.sh
     
