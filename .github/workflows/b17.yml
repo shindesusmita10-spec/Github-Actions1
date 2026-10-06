@@ -13,10 +13,9 @@ jobs:
 
             - name: checking the code
               run: |
-                cd Github-Actions1
                 ls -la
-                chmod +x new.sh
-                ./new.sh
+                chmod +x .github/workflows/new.sh
+                .github/workflows/./new.sh
     
 
             
