@@ -25,5 +25,5 @@ jobs:
              push: true
              tags: ${{ secrets.DOCKER_HUB_USERNAME }}/appb17-2:latest
 
-          - name: verify aws runner
+          - name: verify aws runner 2
             run: uname -r  
