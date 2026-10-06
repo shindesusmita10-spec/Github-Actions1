@@ -36,7 +36,7 @@ jobs:
             run: |
               aws eks update-kubeconfig --region ap-south-1 --name b17
 
-          - name: Deploy to Kubernetes 2
+          - name: Deployment to Kubernetes 2
             run: |
               kubectl apply -f k8s/deploy.yml
               kubectl apply -f k8s/service.yml
