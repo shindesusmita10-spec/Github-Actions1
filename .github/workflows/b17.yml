@@ -1,0 +1,12 @@
+name:  Myfirstworkflow
+
+on: 
+    workflow_dispatch:
+
+jobs:
+    build:
+        runs-on: ubuntu-latest
+
+        steps:
+            - name: print a message
+              run: echo "Hello b17 this is my first workflow"
