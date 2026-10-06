@@ -5,7 +5,7 @@ on:
 
 jobs:
     buildandpush:
-        runs-on: [self-hosted , prd]
+        runs-on: self-hosted
         steps:
           - name: checkout code
             uses: actions/checkout@v6
